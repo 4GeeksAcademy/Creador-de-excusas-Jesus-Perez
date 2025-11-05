@@ -11,10 +11,10 @@ window.onload = function () {
   const objetos = ["la economía", "mi dignidad", "a la clase obrera", "un radiador"];
   const tiempos = ["antes de darse cuenta", "después de su descanso", "en Perú", "después de desayunar", "porque se sentía infeliz"];
 
-  let sujeto = Math.floor(Math.random() * sujetos.length);
-  let accion = Math.floor(Math.random() * acciones.length);
-  let objeto = Math.floor(Math.random() * objetos.length);
-  let tiempo = Math.floor(Math.random() * tiempos.length);
+  let sujeto = Math.floor(Math.random() * sujetos.length -1);
+  let accion = Math.floor(Math.random() * acciones.length -1);
+  let objeto = Math.floor(Math.random() * objetos.length -1);
+  let tiempo = Math.floor(Math.random() * tiempos.length -1);
 
   let palabraSujeto = sujetos[sujeto];
   let palabraAccion = acciones[accion];
